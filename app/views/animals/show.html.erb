@@ -1,0 +1,4 @@
+<h1><%= @animal.name %></h1>
+<% @animal.images.each do |image| %>
+	<%= cl_image_tag image %>
+<% end %>
